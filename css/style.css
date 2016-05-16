@@ -1,0 +1,48 @@
+.form-input{
+	width: 300px;
+	display:inline;
+	float:left;
+	padding-right:10px;
+	margin-bottom:20px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+#submit-bar{
+	padding-top: 20px;
+}
+#submit-bar  button{
+	float:right;
+	margin-left: 10px;
+}
+
+label {
+	color: #999;
+	display: block;
+}
+
+input,select {
+	height: 30px;
+	width:100%;
+}
+textarea {
+	height: 100px;
+	width: 610px;
+}
+
+#form {
+	width:620px;
+}
+.error{
+    border: 1px dotted orangered;
+
+}
+
+
+
+
+
+
+

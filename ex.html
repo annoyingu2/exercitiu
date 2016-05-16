@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form method="post" action="" name="">
+	<div id="logo">
+		<img src="images/logo_dummy.png">
+		<p>Completeaza acest formular pentru inscrierea la concursul Hackathon 2016</p>
+	</div>
+
+	<div id="form">
+		<div class="form-input">
+			<label for="name">Nume:</label>
+			<input type="text" name="name" id="name">
+		</div>
+
+		<div class="form-input">
+			<label for="firstname">Prenume:</label>
+			<input type="text" name="firstname" id="firstname">
+		</div>
+		
+		<div class="clearfix"></div>
+		
+		<div class="form-input">
+			<label for="sex">Sex:</label>
+			<select name="sex" id="sex">
+				<option value=""></option>
+				<option value="M">Masculin</option>
+				<option value="F">Feminin</option>
+			</select>
+		</div>
+
+		<div class="form-input">
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email">
+		</div>
+		
+		<div class="clearfix"></div>
+ 
+		<div class="form-input">
+			<label for="password">Parola</label>
+			<input type="password" name="password" id="password">
+		</div>
+
+		<div class="form-input">
+			<label for="password_again">Reintrodu parola</label>
+			<input type="password" name="password" id="password_again"><br>
+		</div>
+		
+		<div class="clearfix"></div>
+		
+		<div>
+			<label for="obs">Observatii</label>
+			<textarea name="observatii"  id="obs"></textarea>
+		</div>
+		<div class="clearfix"></div>
+		
+		<div id="submit-bar">
+			<button type="submit" onclick="return checkForm();"> Trimite </button>
+			<button type="button"> Renunta </button>
+	    </div>
+    </div>
+
+</form>
+</body>
+<script src="js/js.js"></script>
+</html>
