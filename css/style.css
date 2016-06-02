@@ -1,9 +1,10 @@
-.form-input{
-	width: 300px;
+.form-input {
+	width: 500px;
 	display:inline;
 	float:left;
 	padding-right:10px;
 	margin-bottom:20px;
+
 }
 
 .clearfix{
@@ -20,13 +21,15 @@
 
 label {
 	color: #999;
-	display: block;
+	display: inline;
+
 }
 
 input,select {
 	height: 30px;
-	width:100%;
-}
+	width:250px;
+    }
+
 textarea {
 	height: 100px;
 	width: 610px;
@@ -35,12 +38,21 @@ textarea {
 #form {
 	width:620px;
 }
-.error{
-    border: 1px solid blue;
+.error {
+    border: 1px solid red;
 }
 
+.errorMessage {
+    display: block;
+    margin-left: 100px;
+    color: red;
+}
 
-
+.form-input label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
 
 
 

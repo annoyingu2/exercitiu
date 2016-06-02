@@ -13,14 +13,19 @@
 	</div>
 
 	<div id="form">
-		<div class="form-input">
-			<label for="name">Nume:</label>
-			<input type="text" name="name" id="name">
+
+        <div class="form-input">
+            <label for="name">Nume:</label>
+			<input type="text" name="name" id="name" method="post" class="form-horizontal">
+            <span class="errorMessage"></span>
 		</div>
+
+        <div class="clearfix"></div>
 
 		<div class="form-input">
 			<label for="firstname">Prenume:</label>
 			<input type="text" name="firstname" id="firstname">
+            <span class="errorMessage"></span>
 		</div>
 		
 		<div class="clearfix"></div>
@@ -32,6 +37,7 @@
 				<option value="M">Masculin</option>
 				<option value="F">Feminin</option>
 			</select>
+            <span class="errorMessage"></span>
 		</div>
 
 		<div class="form-input">
@@ -44,11 +50,13 @@
 		<div class="form-input">
 			<label for="password">Parola</label>
 			<input type="password" name="password" id="password">
+            <span class="errorMessage"></span>
 		</div>
 
 		<div class="form-input">
 			<label for="password_again">Reintrodu parola</label>
-			<input type="password" name="password" id="password_again"><br>
+			<input type="password" name="password" id="password_again">
+            <span class="errorMessage"></span>
 		</div>
 		
 		<div class="clearfix"></div>
@@ -59,7 +67,7 @@
 		</div>
 		<div class="clearfix"></div>
 		
-		<div id="submit-bar">
+		<div id="submit-bar" class="col-xs-9 col-xs-offset-3">
 			<button type="submit" onclick="return checkForm();"> Trimite </button>
 			<button type="button"> Renunta </button>
 	    </div>
